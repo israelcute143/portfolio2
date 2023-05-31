@@ -1,0 +1,100 @@
+/* tanan */
+*{
+    margin: 0;
+}
+
+/* navbar styling */
+#collapsibleNavbar ul li:hover{
+    border-bottom: 2px solid yellow;
+    transform: scale(1.30);
+}
+
+/* home section */
+#home{
+    background: url(../img/g5.jpg);
+    background-position: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.h{
+    font-weight: 800;
+    font-family: monospace;
+
+}
+.H1{
+        font-family: none;
+        font-weight: 900;
+        background-color: orangered;
+        animation-name: example;
+        animation-duration: 6s;
+        opacity: 0.7;
+      }
+      
+   @keyframes example {
+        from {background-color: skyblue;}
+        to {background-color: yellow;}
+        from {background-color: skyblue;}
+        to {background-color: yellow;}
+
+      }
+.H3:hover{
+    border: 1px;
+    background-color: aquamarine;
+    transform: scale(1.30);
+}
+
+/* About Us */
+#aboutus{
+    display: flex;
+}
+.col-lg-3:hover{
+    background-color: cornflowerblue;
+    cursor: pointer;
+}
+
+/* activities */
+#activities{
+    background-color: burlywood;
+    height: 100vh;
+}
+.header2{
+    font-weight: 800;
+}
+.p1{
+    font-family: sans-serif;
+    font-weight: 1000;
+}
+
+/* gallery */
+.carousel-indicators button{
+    height: 30px !important;
+    width: 30px !important;
+    border-radius: 50%;
+}
+
+/* contact */
+.name{
+    padding: 10px;
+}
+.name h2{
+    font-size: 2.5rem;
+}
+.name p{
+    font-size: 1.8rem;
+} 
+
+/* Contact Section */
+#contactus{
+   height: 100vh;
+}
+
+.form-label{
+    font-weight: 800;
+}
+
+
+.btn:active {
+  
+  transform: translateY(4px);
+}
