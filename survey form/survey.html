@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css1/btn.css">
+    <title>Survey</title>
+</head>
+<body>
+ 
+    <div class="container-fluid bg-dark text-light py-3">
+        <header class="text-center">
+            <h1 class="display-6">Survey for College Student</h1>
+        </header>
+    </div>
+    <section class="container my-2 bg-secondary w-50 text-light p-2">
+     <form class="row g-3 p-3">
+         <div class="col-md-6">
+             <label for="validationDefault01" class="form-label">First name</label>
+             <input type="text" class="form-control" id="validationDefault01" placeholder="First Name" required>
+           </div>
+           <div class="col-md-6">
+             <label for="validationDefault02" class="form-label">Last name</label>
+             <input type="text" class="form-control" id="validationDefault02" placeholder="Last Name" required>
+           </div>
+         <div class="col-md-6">
+           <label for="inputEmail4" class="form-label">Email</label>
+           <input type="email" class="form-control" id="inputEmail4" placeholder="@gmail.com">
+         </div>
+         <div class="col-md-6">
+             <label for="browser" class="form-label">Gender</label>
+             <input class="form-control" list="browsers" name="browser" id="browser" placeholder="Gender">
+             <datalist id="browsers">
+                 <option value="Male">
+                  <option value="Female">
+                 <option value="Other">
+             </datalist>
+            
+         </div>
+        
+         <div class="col-12">
+           <label for="inputAddress" class="form-label">Address</label>
+           <input type="text" class="form-control" id="inputAddress" placeholder="Street">
+         </div>
+        
+         <div class="col-md-6">
+           <label for="inputCity" class="form-label">Municipality</label>
+           <input type="text" class="form-control" id="inputCity" placeholder="Municipality">
+         </div>
+         <div class="col-md-4">
+           <label for="inputState" class="form-label">Province</label>
+           <select id="inputState" class="form-select">
+             <option selected>Province</option>
+             
+             <option>Bohol</option>
+             <option>Biliran</option>
+             <option>Cebu</option>
+             <option>Guimaras</option>
+             <option>Samar</option>
+             <option>Leyte</option>
+             <option>Siquijor</option>
+             <option>Iloilo</option>
+             <option>Palawan</option>
+             <option>Tagbilaran</option>
+             <option>Panay</option>
+             <option>Capiz</option>
+           </select>
+         </div>
+         <div class="col-md-2">
+           <label for="inputZip" class="form-label">Zip</label>
+           <input type="text" class="form-control" id="inputZip">
+         </div>
+         <div class="col-md-6">
+             <label for="inputState" class="form-label">Course</label>
+             <select id="inputState" class="form-select">
+               <option selected>Course</option>
+               <option>BEED</option>
+               <option>BSED</option>
+               <option>BSHM</option>
+               <option>BSIT</option>
+             </select>
+         </div>
+         <div class="col-md-6">
+             <label for="validationDefault01" class="form-label">School Name</label>
+             <input type="text" class="form-control" id="validationDefault01" placeholder="School Name" required>
+         </div>
+         <div class="col-md-12">
+             <label for="inputState" class="form-label">What is your age range?</label>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio1" name="optradio" value="option1"> 17 - 20
+                 <label class="form-check-label" for="radio1"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio2" name="optradio" value="option2"> 21 - 25
+                 <label class="form-check-label" for="radio2"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio3" name="optradio" value="option3"> 26 - 30
+                 <label class="form-check-label" for="radio3"></label>
+             </div>
+             <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio4" name="optradio" value="option4"> 30 - 40
+                <label class="form-check-label" for="radio4"></label>
+            </div>
+         </div>
+         <div class="col-md-12">
+             <label for="inputState" class="form-label">Are you happy to your choosen course?</label>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio1" name="optradio1" value="option1">Yes
+                 <label class="form-check-label" for="radio1"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio2" name="optradio1" value="option2">No
+                 <label class="form-check-label" for="radio2"></label>
+             </div>
+         </div>
+         <div class="col-md-12">
+             <label for="inputState" class="form-label">Did you really enjoy your course?</label>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio1" name="optradio2" value="option1">Yes
+                 <label class="form-check-label" for="radio1"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio2" name="optradio2" value="option2">No
+                 <label class="form-check-label" for="radio2"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio3" name="optradio2" value="option3">Maybe
+                 <label class="form-check-label" for="radio3"></label>
+             </div>
+         </div>
+         <div class="col-md-12">
+             <label for="inputState" class="form-label">How do you go to your school?</label>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio1" name="optradio3" value="option1">Walking
+                 <label class="form-check-label" for="radio1"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio2" name="optradio3" value="option2">Biking
+                 <label class="form-check-label" for="radio2"></label>
+             </div>
+             <div class="form-check">
+                <input type="radio" class="form-check-input" id="radio3" name="optradio3" value="option3">Ride a tricycle
+                <label class="form-check-label" for="radio3"></label>
+            </div>
+         </div>
+         <div class="col-md-12">
+             <label for="inputState" class="form-label">Are you comfortable to the school?</label>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio1" name="optradio4" value="option1">Yes
+                 <label class="form-check-label" for="radio1"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio2" name="optradio4" value="option2">No
+                 <label class="form-check-label" for="radio2"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio3" name="optradio4" value="option3">Maybe
+                 <label class="form-check-label" for="radio3"></label>
+             </div>
+         </div>
+         <div class="col-md-12">
+             <label for="inputState" class="form-label">Do you skip your meal?</label>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio1" name="optradio5" value="option1">Yes
+                 <label class="form-check-label" for="radio1"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio2" name="optradio5" value="option2">No
+                 <label class="form-check-label" for="radio2"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio3" name="optradio5" value="option3">Sometimes
+                 <label class="form-check-label" for="radio3"></label>
+             </div>
+         </div>
+         <div class="col-md-12">
+             <label for="inputState" class="form-label">How long do you use your phone after your class?</label>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio1" name="optradio6" value="option1">30 minutes
+                 <label class="form-check-label" for="radio1"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio2" name="optradio6" value="option2">1 hour
+                 <label class="form-check-label" for="radio2"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio3" name="optradio6" value="option3">2 hours
+                 <label class="form-check-label" for="radio3"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio4" name="optradio6" value="option4">5 hours
+                 <label class="form-check-label" for="radio4"></label>
+             </div>
+             <div class="form-check">
+                 <input type="radio" class="form-check-input" id="radio5" name="optradio6" value="option5">24 hours
+                 <label class="form-check-label" for="radio5"></label>
+             </div>
+         </div>  
+         <!--checkbox-->
+         <div class="col-md-12">
+            <label for="inputState" class="form-label">What are some activities you wanted to have in your school? </label>
+         <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something">
+            <label class="form-check-label" for="check1">Dance Club</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+            <label class="form-check-label" for="check2">Watching movies</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check3" name="option3" value="something">
+            <label class="form-check-label" for="check3">Playing sports</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check4" name="option4" value="something">
+            <label class="form-check-label" for="check4">Playing online games</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check5" name="option5" value="something">
+            <label class="form-check-label" for="check5">Reading</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check6" name="option6" value="something">
+            <label class="form-check-label" for="check6">Party</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" id="check7" name="option7" value="something">
+            <label class="form-check-label" for="check7">None of them</label>
+          </div>
+          </div>
+       
+         <div class="col-12">
+           <div class="form-check">
+             <input class="form-check-input" type="checkbox" id="gridCheck">
+             <label class="form-check-label" for="gridCheck">
+               All of my informations I put are true and correct
+             </label>
+           </div>
+         </div>
+         <div class="col-12">
+           <button type="submit" class="btn btn-primary">Submit</button>
+         </div>
+       </form>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
