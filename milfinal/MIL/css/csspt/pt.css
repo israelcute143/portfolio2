@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    background-color: lightslategray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.pt{
+    font-size: 60px;
+    color: yellow;
+    text-align: center;
+    animation: flicker 1.5s infinite alternate;
+}
+
+table{
+    padding: 0px;
+    margin: 0;
+}
+
+
+td ,tr{
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 3vw;
+    font-weight: 50px;
+    font-size: 12.5px;
+}
+.none1{
+    border: none;
+}
+.none1:hover{
+    transform: none;
+}
+
+
+.color1{
+    background-color: yellow;
+}
+.violet{
+    background-color: violet;
+}
+.sky{
+    background-color: skyblue;
+}
+.ygreen{
+    background-color: yellowgreen;
+}
+.v{
+    background-color: blueviolet;
+}
+.brown{
+    background-color: peru;
+}
+.rb{
+    background-color: lightcoral;
+}
+.db{
+    background-color: palegreen;
+}
+.yyg{
+    background-color: lime;
+}
+.car{
+    background-color: aqua;
+}
+.r{
+    background-color: tomato;
+}
+
+/* flicker animation */
+@keyframes flicker{
+    0%, 17%, 33%, 50%, 66%, 83%, 100%{
+        text-shadow: 
+        0 0 10px white,
+        0 0 20px rosybrown,
+        0 0 40px  red,
+        0 0 70px green,
+        0 0 110px green,
+        0 0 160px  green
+    }
+    20%, 40%, 60%, 80%{
+        text-shadow: none;
+    }
+}
+td:hover {
+    color: black;
+    transform: scale(1.30);
+    z-index: 30;
+
+}
